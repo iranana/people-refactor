@@ -1,17 +1,16 @@
-var express = require('express');
-var app = express();
-var Datastore = require('nedb'),
-  db = new Datastore({
-    filename: 'MOCK_DATA.json',
-    autoload: true
-  });
-var fs = require('fs');
-var handlebars = require('handlebars');
-var cleanDeep = require('clean-deep');
+const express = require("express");
+const app = express();
+const Datastore = require("nedb");
+const fs = require("fs");
+const cleanDeep = require("clean-deep");
+const db = new Datastore({
+  filename: "db.json",
+  autoload: true
+});
 
-app.use('/dist', express.static('dist'));
+app.use("/dist", express.static("dist"));
 
-app.get(['/api/people'], (req, res) => {
+app.get(["/api/people"], (req, res) => {
   const { gender, maxAge, minAge, pet } = req.query;
 
   const query = {
@@ -29,22 +28,23 @@ app.get(['/api/people'], (req, res) => {
 
   db.find(cleanQuery, {}, (error, documents) => {
     if (error) {
-      return res.status(500).send({ status: 500, message: "Failed to read database" });
+      return res.status(500).send({ status: 500, message: "Failed to read database." });
     }
 
     res.send(documents)
   });
 });
 
-app.get('/', function (req, res) {
-  fs.readFile('./dist/index.html', 'utf8', (err, data) => {
-    var template = handlebars.compile(data);
-    var rendered = template();
-    res.contentType('text/html');
-    res.status(200).send(rendered);
+app.get("/", function (req, res) {
+  fs.readFile("./dist/index.html", "utf8", (error, data) => {
+    if (error) {
+      return res.status(500).send({ status: 500, message: "Couldn't find template." })
+    }
+
+    res.status(200).send(data);
   });
 });
 
 app.listen(3000, function () {
-  console.log('-- running on port 3000 --')
+  console.log("-- Listening on port 3000 --")
 });
