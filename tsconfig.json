@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [ "es2015", "es2016", "dom" ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [ "react", "react-dom", "react-router-dom", "mobx", "mobx-react", "mobx-utils" ],
+    "baseUrl": "."
+  },
+  "exclude": [
+    "build"
+  ]
+}

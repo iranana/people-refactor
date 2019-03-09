@@ -4,7 +4,8 @@
   "description": "Refactoring exercise for Node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "parcel ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,21 @@
   "dependencies": {
     "express": "^4.15.3",
     "handlebars": "^4.0.10",
-    "nedb": "^1.8.0"
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "mobx-utils": "^5.2.0",
+    "nedb": "^1.8.0",
+    "query-string": "^6.3.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-router-dom": "^4.3.1",
+    "cssnano": "^4.1.10",
+    "typescript": "^3.3.3333"
   }
 }

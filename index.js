@@ -8,83 +8,46 @@ var Datastore = require('nedb'),
 var fs = require('fs');
 var handlebars = require('handlebars');
 
-app.get(['/everyone','/'], function (req, res) {
-  fs.readFile('everyone.hbs', 'utf8', (err, data) => {
-    var template = handlebars.compile(data);
-    db.find({}, {}, (err, docs) => {
-      var rendered = template({
-        people: docs
-      });
-      res.contentType('text/html');
-      res.status(200).send(rendered);
-    });
+app.use('/dist', express.static('dist'));
+
+app.get(['/api/people'], (req, res) => {
+  let { gender, maxAge, minAge } = req.query;
+  let query = {};
+ 
+  if (gender) {
+    query.gender = gender;
+  } 
+  
+  if (maxAge || minAge) { 
+    query.age = {};
+
+    if (maxAge) {
+      query.age.$lt = parseInt(maxAge)
+    }
+    
+    if (minAge) {
+      query.age.$gte = parseInt(minAge)
+    }
+  }
+
+  db.find(query, {}, (error, documents) => {
+    if (error) {
+      return res.status(500).send({ status: 500, message: "Failed to read database" });
+    }
+
+    res.send(documents)
   });
 });
 
-app.get('/male', function (req, res) {
-  fs.readFile('everyone.hbs', 'utf8', (err, data) => {
+app.get('/', function (req, res) {
+  fs.readFile('./dist/index.html', 'utf8', (err, data) => {
     var template = handlebars.compile(data);
-    db.find({
-      gender: 'male'
-    }, {}, (err, docs) => {
-      var rendered = template({
-        people: docs
-      });
-      res.contentType('text/html');
-      res.status(200).send(rendered);
-    });
-  });
-});
-
-app.get('/female', function (req, res) {
-  fs.readFile('everyone.hbs', 'utf8', (err, data) => {
-    var template = handlebars.compile(data);
-    db.find({
-      gender: 'female'
-    }, {}, (err, docs) => {
-      var rendered = template({
-        people: docs
-      });
-      res.contentType('text/html');
-      res.status(200).send(rendered);
-    });
-  });
-});
-
-app.get('/under30', function (req, res) {
-  fs.readFile('everyone.hbs', 'utf8', (err, data) => {
-    var template = handlebars.compile(data);
-    db.find({
-      age: {
-        $lt: 30
-      }
-    }, {}, (err, docs) => {
-      var rendered = template({
-        people: docs
-      });
-      res.contentType('text/html');
-      res.status(200).send(rendered);
-    });
-  });
-});
-
-app.get('/over30', function (req, res) {
-  fs.readFile('everyone.hbs', 'utf8', (err, data) => {
-    var template = handlebars.compile(data);
-    db.find({
-      age: {
-        $gte: 30
-      }
-    }, {}, (err, docs) => {
-      var rendered = template({
-        people: docs
-      });
-      res.contentType('text/html');
-      res.status(200).send(rendered);
-    });
+    var rendered = template();
+    res.contentType('text/html');
+    res.status(200).send(rendered);
   });
 });
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log('-- running on port 3000 --')
 });
