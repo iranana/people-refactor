@@ -1,2 +1,17 @@
-// Gross path, tsconfig...
+// TODO 
 @import "../../node_modules/bulma/bulma";
+
+main.container {
+  margin-top: 25px;
+}
+
+.people-filter {
+  margin: 20px 0 50px 0;
+
+  .select,
+  .input,
+  .button {
+    width: auto;
+    margin-right: 10px;
+  }
+}

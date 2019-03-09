@@ -6,7 +6,7 @@ import queryString from "query-string";
 /**
  * Renders a form with filter controls.
  */
-class PeopleFilter extends React.Component<RouteComponentProps> {
+class PeopleFilter extends React.Component<{ onSearch: any }> {
   form: React.RefObject<HTMLFormElement> = React.createRef();
 
   search = (e) => {
@@ -20,13 +20,13 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
       pet: pet.value || null
     }
 
-    // Query changes are received up by PeopleList in componentDidUpdate()
-    this.props.history.push(`?${queryString.stringify(cleanDeep(query))}`);
+    this.props.onSearch(queryString.stringify(cleanDeep(query)));
   }
 
   render () {
     return (
-      <form ref={this.form} onSubmit={this.search}>
+      <form className="people-filter" ref={this.form} onSubmit={this.search}>
+        <h6 className="title is-6">Filter by:</h6>
         <div className="select">
           <select id="gender" onChange={this.search}>
             <option value="">Any gender</option>
