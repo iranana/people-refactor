@@ -31,8 +31,8 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
       <form ref={this.form} onSubmit={this.search}>
         <select id="gender" onChange={this.search}>
           <option value="">Any gender</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
         </select>
         <input id="minAge" type="number" placeholder="Min age" />
         <input id="maxAge" type="number" placeholder="Max age" />

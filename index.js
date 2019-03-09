@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var Datastore = require('nedb'),
   db = new Datastore({
-    filename: 'db.json',
+    filename: 'MOCK_DATA.json',
     autoload: true
   });
 var fs = require('fs');
