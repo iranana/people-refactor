@@ -1,100 +1,100 @@
-{"_id":1,"name":"Lindy McCusker","gender":"Female","age":46,"favourite_animal":"Grey fox","favourite_color":"#56d3f3"}
-{"_id":2,"name":"Lyell Eakens","gender":"Male","age":2,"favourite_animal":"Pademelon, red-legged","favourite_color":"#5cf546"}
-{"_id":3,"name":"Minni Rash","gender":"Female","age":100,"favourite_animal":"Honey badger","favourite_color":"#f50096"}
-{"_id":4,"name":"Melony Cardoo","gender":"Female","age":43,"favourite_animal":"Indian giant squirrel","favourite_color":"#5ff969"}
-{"_id":5,"name":"Dana Capeling","gender":"Male","age":12,"favourite_animal":"Cuis","favourite_color":"#87371b"}
-{"_id":6,"name":"Sancho Myring","gender":"Male","age":36,"favourite_animal":"Duck, mountain","favourite_color":"#5252aa"}
-{"_id":7,"name":"Marty Deluce","gender":"Female","age":47,"favourite_animal":"Cockatoo, red-tailed","favourite_color":"#edd02e"}
-{"_id":8,"name":"Chris Bendel","gender":"Female","age":20,"favourite_animal":"White-winged dove","favourite_color":"#ec6a74"}
-{"_id":9,"name":"Carmina Clurow","gender":"Female","age":41,"favourite_animal":"Baboon, yellow","favourite_color":"#9943bd"}
-{"_id":10,"name":"Pavia Artinstall","gender":"Female","age":99,"favourite_animal":"Buffalo, american","favourite_color":"#6d3602"}
-{"_id":11,"name":"North Lindl","gender":"Male","age":71,"favourite_animal":"Cockatoo, roseate","favourite_color":"#1cf023"}
-{"_id":12,"name":"Karisa Lawther","gender":"Female","age":85,"favourite_animal":"Slender-billed cockatoo","favourite_color":"#c20556"}
-{"_id":13,"name":"Dorri Wibrew","gender":"Female","age":43,"favourite_animal":"Curlew, black","favourite_color":"#3c6cff"}
-{"_id":14,"name":"Wyn Spottiswoode","gender":"Male","age":19,"favourite_animal":"Snake-necked turtle","favourite_color":"#1be203"}
-{"_id":15,"name":"Vernice Quarless","gender":"Female","age":26,"favourite_animal":"Jackal, black-backed","favourite_color":"#46c21a"}
-{"_id":16,"name":"Sebastien Degnen","gender":"Male","age":43,"favourite_animal":"Ox, musk","favourite_color":"#a8880b"}
-{"_id":17,"name":"Ariela McConigal","gender":"Female","age":25,"favourite_animal":"Peccary, white-lipped","favourite_color":"#87aa7e"}
-{"_id":18,"name":"Pablo Jorck","gender":"Male","age":8,"favourite_animal":"Hyena, spotted","favourite_color":"#5f7056"}
-{"_id":19,"name":"Miof mela Bamber","gender":"Female","age":3,"favourite_animal":"Harbor seal","favourite_color":"#7c60ea"}
-{"_id":20,"name":"Koral Backman","gender":"Female","age":68,"favourite_animal":"Heron, green","favourite_color":"#28fef2"}
-{"_id":21,"name":"Edward Giacomi","gender":"Male","age":68,"favourite_animal":"Asian openbill","favourite_color":"#176320"}
-{"_id":22,"name":"Marius Doogue","gender":"Male","age":92,"favourite_animal":"Currasow (unidentified)","favourite_color":"#686e3d"}
-{"_id":23,"name":"Sayers Reis","gender":"Male","age":39,"favourite_animal":"Long-crested hawk eagle","favourite_color":"#069b83"}
-{"_id":24,"name":"Diena Abade","gender":"Female","age":45,"favourite_animal":"Indian giant squirrel","favourite_color":"#116d12"}
-{"_id":25,"name":"Kimberlee Elnor","gender":"Female","age":96,"favourite_animal":"Brown pelican","favourite_color":"#5b725b"}
-{"_id":26,"name":"Chrysa Lorryman","gender":"Female","age":49,"favourite_animal":"Dove, mourning collared","favourite_color":"#e731d8"}
-{"_id":27,"name":"Buckie McFadin","gender":"Male","age":53,"favourite_animal":"Dabchick","favourite_color":"#e96f86"}
-{"_id":28,"name":"Sam Stiebler","gender":"Male","age":16,"favourite_animal":"Deer, black-tailed","favourite_color":"#fb5729"}
-{"_id":29,"name":"Hamlin Carson","gender":"Male","age":19,"favourite_animal":"Heron, black-crowned night","favourite_color":"#e775a0"}
-{"_id":30,"name":"Amanda Arnot","gender":"Female","age":99,"favourite_animal":"Serval","favourite_color":"#389e7d"}
-{"_id":31,"name":"Guilbert Clougher","gender":"Male","age":10,"favourite_animal":"Porcupine, tree","favourite_color":"#7c6579"}
-{"_id":32,"name":"Dyana Stokes","gender":"Female","age":92,"favourite_animal":"Lory, rainbow","favourite_color":"#282aeb"}
-{"_id":33,"name":"Mariel Kobpac","gender":"Female","age":29,"favourite_animal":"Admiral, indian red","favourite_color":"#565900"}
-{"_id":34,"name":"Yehudi DelaField","gender":"Male","age":53,"favourite_animal":"Red-knobbed coot","favourite_color":"#391e39"}
-{"_id":35,"name":"Pip Sarjant","gender":"Male","age":81,"favourite_animal":"Springbuck","favourite_color":"#3c9976"}
-{"_id":36,"name":"Vernon Ubsdale","gender":"Male","age":32,"favourite_animal":"Blue and gold macaw","favourite_color":"#046a68"}
-{"_id":37,"name":"Sophi Courtenay","gender":"Female","age":8,"favourite_animal":"Killer whale","favourite_color":"#450767"}
-{"_id":38,"name":"Selinda Abadam","gender":"Female","age":61,"favourite_animal":"Cat, jungle","favourite_color":"#5f90aa"}
-{"_id":39,"name":"Ev Gouge","gender":"Male","age":56,"favourite_animal":"Shark, blue","favourite_color":"#f38311"}
-{"_id":40,"name":"Marvin Bicksteth","gender":"Male","age":51,"favourite_animal":"Oystercatcher, blackish","favourite_color":"#f76f9f"}
-{"_id":41,"name":"Madelena Cowles","gender":"Female","age":7,"favourite_animal":"Sea birds (unidentified)","favourite_color":"#4df630"}
-{"_id":42,"name":"Doralynne Valois","gender":"Female","age":2,"favourite_animal":"Thirteen-lined squirrel","favourite_color":"#9cc473"}
-{"_id":43,"name":"Barbee Perrie","gender":"Female","age":97,"favourite_animal":"Otter, giant","favourite_color":"#b75721"}
-{"_id":44,"name":"Welch Nise","gender":"Male","age":3,"favourite_animal":"Grenadier, common","favourite_color":"#d1535d"}
-{"_id":45,"name":"Seymour Gidman","gender":"Male","age":45,"favourite_animal":"Musk ox","favourite_color":"#066cee"}
-{"_id":46,"name":"Maurita Skells","gender":"Female","age":81,"favourite_animal":"Tarantula","favourite_color":"#d00daf"}
-{"_id":47,"name":"Janis Swyer","gender":"Female","age":14,"favourite_animal":"Bent-toed gecko","favourite_color":"#0268bd"}
-{"_id":48,"name":"Clarey MacAindreis","gender":"Female","age":86,"favourite_animal":"Cockatoo, red-breasted","favourite_color":"#c45a5e"}
-{"_id":49,"name":"Harmony Rainforth","gender":"Female","age":51,"favourite_animal":"Bohor reedbuck","favourite_color":"#3281b8"}
-{"_id":50,"name":"Quent Cleaver","gender":"Male","age":57,"favourite_animal":"Red hartebeest","favourite_color":"#bfd4f5"}
-{"_id":51,"name":"Alvie Seiler","gender":"Male","age":22,"favourite_animal":"Crane, sandhill","favourite_color":"#be163e"}
-{"_id":52,"name":"Quintus Escolme","gender":"Male","age":6,"favourite_animal":"Otter, canadian river","favourite_color":"#6639b2"}
-{"_id":53,"name":"Wallis Putson","gender":"Male","age":10,"favourite_animal":"Cat, miner's","favourite_color":"#bb1320"}
-{"_id":54,"name":"Brewer Moakes","gender":"Male","age":64,"favourite_animal":"Stork, yellow-billed","favourite_color":"#44a1b3"}
-{"_id":55,"name":"Conrado Challoner","gender":"Male","age":92,"favourite_animal":"Blue peacock","favourite_color":"#8791ff"}
-{"_id":56,"name":"Zacharia Bothams","gender":"Male","age":65,"favourite_animal":"Small-toothed palm civet","favourite_color":"#ea0cec"}
-{"_id":57,"name":"Lodovico Plett","gender":"Male","age":91,"favourite_animal":"Pelican, brown","favourite_color":"#bccd3c"}
-{"_id":58,"name":"Raphael Renvoys","gender":"Male","age":77,"favourite_animal":"Whale, baleen","favourite_color":"#7cdb2a"}
-{"_id":59,"name":"Rocky Paule","gender":"Male","age":65,"favourite_animal":"Swan, trumpeter","favourite_color":"#6302ff"}
-{"_id":60,"name":"Marj Hurtic","gender":"Female","age":62,"favourite_animal":"Tarantula, salmon pink bird eater","favourite_color":"#421f18"}
-{"_id":61,"name":"Tyne Nanelli","gender":"Female","age":90,"favourite_animal":"Fox, silver-backed","favourite_color":"#84158b"}
-{"_id":62,"name":"Matti Coltan","gender":"Female","age":57,"favourite_animal":"Blue-tongued skink","favourite_color":"#71221c"}
-{"_id":63,"name":"Andras Donkersley","gender":"Male","age":22,"favourite_animal":"Silver gull","favourite_color":"#58d5e4"}
-{"_id":64,"name":"Brien Toyer","gender":"Male","age":58,"favourite_animal":"Euro wallaby","favourite_color":"#018833"}
-{"_id":65,"name":"Lillis O'Nolan","gender":"Female","age":87,"favourite_animal":"Spur-winged goose","favourite_color":"#318c03"}
-{"_id":66,"name":"Hana Volk","gender":"Female","age":75,"favourite_animal":"Kingfisher, malachite","favourite_color":"#64a844"}
-{"_id":67,"name":"Aubree Gabbitus","gender":"Female","age":22,"favourite_animal":"Caracal","favourite_color":"#1759d7"}
-{"_id":68,"name":"Elisha Besantie","gender":"Female","age":91,"favourite_animal":"Elk, Wapiti","favourite_color":"#c4fd69"}
-{"_id":69,"name":"Bram Bonar","gender":"Male","age":96,"favourite_animal":"Pallas's fish eagle","favourite_color":"#c94f76"}
-{"_id":70,"name":"Barde Jacox","gender":"Male","age":21,"favourite_animal":"Snowy egret","favourite_color":"#b21127"}
-{"_id":71,"name":"Lothario Jacobovitch","gender":"Male","age":47,"favourite_animal":"Asian lion","favourite_color":"#3a9057"}
-{"_id":72,"name":"Lonnie Croasdale","gender":"Female","age":30,"favourite_animal":"Nighthawk, common","favourite_color":"#3a768a"}
-{"_id":73,"name":"Maddy Agutter","gender":"Female","age":93,"favourite_animal":"Eurasian red squirrel","favourite_color":"#548b5d"}
-{"_id":74,"name":"Odey Selbach","gender":"Male","age":36,"favourite_animal":"Red phalarope","favourite_color":"#83202f"}
-{"_id":75,"name":"Silvanus McKue","gender":"Male","age":39,"favourite_animal":"Russian dragonfly","favourite_color":"#03c480"}
-{"_id":76,"name":"Shena Bedingfield","gender":"Female","age":41,"favourite_animal":"Meerkat, red","favourite_color":"#403ed1"}
-{"_id":77,"name":"Allx Ruddell","gender":"Female","age":9,"favourite_animal":"Wildebeest, blue","favourite_color":"#e411eb"}
-{"_id":78,"name":"Algernon Flacknell","gender":"Male","age":86,"favourite_animal":"Rhinoceros, black","favourite_color":"#14d5dc"}
-{"_id":79,"name":"Ber Cranstoun","gender":"Male","age":48,"favourite_animal":"Hornbill, yellow-billed","favourite_color":"#829050"}
-{"_id":80,"name":"Rafi Baumert","gender":"Male","age":76,"favourite_animal":"Shrike, southern white-crowned","favourite_color":"#a35813"}
-{"_id":81,"name":"Pru Cullon","gender":"Female","age":22,"favourite_animal":"Camel, dromedary","favourite_color":"#e7d13d"}
-{"_id":82,"name":"Chickie Jindrich","gender":"Male","age":61,"favourite_animal":"Sea birds (unidentified)","favourite_color":"#188aa6"}
-{"_id":83,"name":"Farley Fike","gender":"Male","age":28,"favourite_animal":"Red sheep","favourite_color":"#771fc5"}
-{"_id":84,"name":"Andy Todari","gender":"Female","age":84,"favourite_animal":"Lechwe, kafue flats","favourite_color":"#a2e540"}
-{"_id":85,"name":"Elna Pammenter","gender":"Female","age":56,"favourite_animal":"Macaque, pig-tailed","favourite_color":"#32b07d"}
-{"_id":86,"name":"Hobart Constance","gender":"Male","age":74,"favourite_animal":"Eagle, long-crested hawk","favourite_color":"#85d5a9"}
-{"_id":87,"name":"Hollie Maine","gender":"Female","age":63,"favourite_animal":"Dove, emerald-spotted wood","favourite_color":"#0ba304"}
-{"_id":88,"name":"Tuck Tudball","gender":"Male","age":69,"favourite_animal":"Tawny frogmouth","favourite_color":"#19a43c"}
-{"_id":89,"name":"Kaitlin Rivilis","gender":"Female","age":64,"favourite_animal":"American racer","favourite_color":"#0546a2"}
-{"_id":90,"name":"Robert Goalley","gender":"Male","age":88,"favourite_animal":"Ostrich","favourite_color":"#61eaaf"}
-{"_id":91,"name":"Ginnifer Giff","gender":"Female","age":39,"favourite_animal":"Sun gazer","favourite_color":"#60a3fb"}
-{"_id":92,"name":"Evangeline Kenright","gender":"Female","age":49,"favourite_animal":"Common zorro","favourite_color":"#9fb06a"}
-{"_id":93,"name":"Di Scopes","gender":"Female","age":19,"favourite_animal":"Cat, tiger","favourite_color":"#acf1c4"}
-{"_id":94,"name":"Whitman Fitchett","gender":"Male","age":55,"favourite_animal":"Sifaka, verreaux's","favourite_color":"#2538e6"}
-{"_id":95,"name":"Carina Marwick","gender":"Female","age":11,"favourite_animal":"Snowy sheathbill","favourite_color":"#c34982"}
-{"_id":96,"name":"Drugi Stormont","gender":"Male","age":88,"favourite_animal":"Dove, galapagos","favourite_color":"#70d5a9"}
-{"_id":97,"name":"Garrot Dooher","gender":"Male","age":91,"favourite_animal":"Common ringtail","favourite_color":"#b18f77"}
-{"_id":98,"name":"Aubree Norcott","gender":"Female","age":35,"favourite_animal":"Snake, racer","favourite_color":"#8e9a82"}
-{"_id":99,"name":"Hill Baradel","gender":"Male","age":68,"favourite_animal":"Iguana, marine","favourite_color":"#344c77"}
-{"_id":100,"name":"Fidela Dood","gender":"Female","age":73,"favourite_animal":"Lion, california sea","favourite_color":"#96ed02"}
+{"_id":1,"name":"Lindy McCusker","gender":"Female","age":46,"pet":"Grey fox","favourite_color":"#56d3f3"}
+{"_id":2,"name":"Lyell Eakens","gender":"Male","age":2,"pet":"Pademelon, red-legged","favourite_color":"#5cf546"}
+{"_id":3,"name":"Minni Rash","gender":"Female","age":100,"pet":"Honey badger","favourite_color":"#f50096"}
+{"_id":4,"name":"Melony Cardoo","gender":"Female","age":43,"pet":"Indian giant squirrel","favourite_color":"#5ff969"}
+{"_id":5,"name":"Dana Capeling","gender":"Male","age":12,"pet":"Cuis","favourite_color":"#87371b"}
+{"_id":6,"name":"Sancho Myring","gender":"Male","age":36,"pet":"Duck, mountain","favourite_color":"#5252aa"}
+{"_id":7,"name":"Marty Deluce","gender":"Female","age":47,"pet":"Cockatoo, red-tailed","favourite_color":"#edd02e"}
+{"_id":8,"name":"Chris Bendel","gender":"Female","age":20,"pet":"White-winged dove","favourite_color":"#ec6a74"}
+{"_id":9,"name":"Carmina Clurow","gender":"Female","age":41,"pet":"Baboon, yellow","favourite_color":"#9943bd"}
+{"_id":10,"name":"Pavia Artinstall","gender":"Female","age":99,"pet":"Buffalo, american","favourite_color":"#6d3602"}
+{"_id":11,"name":"North Lindl","gender":"Male","age":71,"pet":"Cockatoo, roseate","favourite_color":"#1cf023"}
+{"_id":12,"name":"Karisa Lawther","gender":"Female","age":85,"pet":"Slender-billed cockatoo","favourite_color":"#c20556"}
+{"_id":13,"name":"Dorri Wibrew","gender":"Female","age":43,"pet":"Curlew, black","favourite_color":"#3c6cff"}
+{"_id":14,"name":"Wyn Spottiswoode","gender":"Male","age":19,"pet":"Snake-necked turtle","favourite_color":"#1be203"}
+{"_id":15,"name":"Vernice Quarless","gender":"Female","age":26,"pet":"Jackal, black-backed","favourite_color":"#46c21a"}
+{"_id":16,"name":"Sebastien Degnen","gender":"Male","age":43,"pet":"Ox, musk","favourite_color":"#a8880b"}
+{"_id":17,"name":"Ariela McConigal","gender":"Female","age":25,"pet":"Peccary, white-lipped","favourite_color":"#87aa7e"}
+{"_id":18,"name":"Pablo Jorck","gender":"Male","age":8,"pet":"Hyena, spotted","favourite_color":"#5f7056"}
+{"_id":19,"name":"Miof mela Bamber","gender":"Female","age":3,"pet":"Harbor seal","favourite_color":"#7c60ea"}
+{"_id":20,"name":"Koral Backman","gender":"Female","age":68,"pet":"Heron, green","favourite_color":"#28fef2"}
+{"_id":21,"name":"Edward Giacomi","gender":"Male","age":68,"pet":"Asian openbill","favourite_color":"#176320"}
+{"_id":22,"name":"Marius Doogue","gender":"Male","age":92,"pet":"Currasow (unidentified)","favourite_color":"#686e3d"}
+{"_id":23,"name":"Sayers Reis","gender":"Male","age":39,"pet":"Long-crested hawk eagle","favourite_color":"#069b83"}
+{"_id":24,"name":"Diena Abade","gender":"Female","age":45,"pet":"Indian giant squirrel","favourite_color":"#116d12"}
+{"_id":25,"name":"Kimberlee Elnor","gender":"Female","age":96,"pet":"Brown pelican","favourite_color":"#5b725b"}
+{"_id":26,"name":"Chrysa Lorryman","gender":"Female","age":49,"pet":"Dove, mourning collared","favourite_color":"#e731d8"}
+{"_id":27,"name":"Buckie McFadin","gender":"Male","age":53,"pet":"Dabchick","favourite_color":"#e96f86"}
+{"_id":28,"name":"Sam Stiebler","gender":"Male","age":16,"pet":"Deer, black-tailed","favourite_color":"#fb5729"}
+{"_id":29,"name":"Hamlin Carson","gender":"Male","age":19,"pet":"Heron, black-crowned night","favourite_color":"#e775a0"}
+{"_id":30,"name":"Amanda Arnot","gender":"Female","age":99,"pet":"Serval","favourite_color":"#389e7d"}
+{"_id":31,"name":"Guilbert Clougher","gender":"Male","age":10,"pet":"Porcupine, tree","favourite_color":"#7c6579"}
+{"_id":32,"name":"Dyana Stokes","gender":"Female","age":92,"pet":"Lory, rainbow","favourite_color":"#282aeb"}
+{"_id":33,"name":"Mariel Kobpac","gender":"Female","age":29,"pet":"Admiral, indian red","favourite_color":"#565900"}
+{"_id":34,"name":"Yehudi DelaField","gender":"Male","age":53,"pet":"Red-knobbed coot","favourite_color":"#391e39"}
+{"_id":35,"name":"Pip Sarjant","gender":"Male","age":81,"pet":"Springbuck","favourite_color":"#3c9976"}
+{"_id":36,"name":"Vernon Ubsdale","gender":"Male","age":32,"pet":"Blue and gold macaw","favourite_color":"#046a68"}
+{"_id":37,"name":"Sophi Courtenay","gender":"Female","age":8,"pet":"Killer whale","favourite_color":"#450767"}
+{"_id":38,"name":"Selinda Abadam","gender":"Female","age":61,"pet":"Cat, jungle","favourite_color":"#5f90aa"}
+{"_id":39,"name":"Ev Gouge","gender":"Male","age":56,"pet":"Shark, blue","favourite_color":"#f38311"}
+{"_id":40,"name":"Marvin Bicksteth","gender":"Male","age":51,"pet":"Oystercatcher, blackish","favourite_color":"#f76f9f"}
+{"_id":41,"name":"Madelena Cowles","gender":"Female","age":7,"pet":"Sea birds (unidentified)","favourite_color":"#4df630"}
+{"_id":42,"name":"Doralynne Valois","gender":"Female","age":2,"pet":"Thirteen-lined squirrel","favourite_color":"#9cc473"}
+{"_id":43,"name":"Barbee Perrie","gender":"Female","age":97,"pet":"Otter, giant","favourite_color":"#b75721"}
+{"_id":44,"name":"Welch Nise","gender":"Male","age":3,"pet":"Grenadier, common","favourite_color":"#d1535d"}
+{"_id":45,"name":"Seymour Gidman","gender":"Male","age":45,"pet":"Musk ox","favourite_color":"#066cee"}
+{"_id":46,"name":"Maurita Skells","gender":"Female","age":81,"pet":"Tarantula","favourite_color":"#d00daf"}
+{"_id":47,"name":"Janis Swyer","gender":"Female","age":14,"pet":"Bent-toed gecko","favourite_color":"#0268bd"}
+{"_id":48,"name":"Clarey MacAindreis","gender":"Female","age":86,"pet":"Cockatoo, red-breasted","favourite_color":"#c45a5e"}
+{"_id":49,"name":"Harmony Rainforth","gender":"Female","age":51,"pet":"Bohor reedbuck","favourite_color":"#3281b8"}
+{"_id":50,"name":"Quent Cleaver","gender":"Male","age":57,"pet":"Red hartebeest","favourite_color":"#bfd4f5"}
+{"_id":51,"name":"Alvie Seiler","gender":"Male","age":22,"pet":"Crane, sandhill","favourite_color":"#be163e"}
+{"_id":52,"name":"Quintus Escolme","gender":"Male","age":6,"pet":"Otter, canadian river","favourite_color":"#6639b2"}
+{"_id":53,"name":"Wallis Putson","gender":"Male","age":10,"pet":"Cat, miner's","favourite_color":"#bb1320"}
+{"_id":54,"name":"Brewer Moakes","gender":"Male","age":64,"pet":"Stork, yellow-billed","favourite_color":"#44a1b3"}
+{"_id":55,"name":"Conrado Challoner","gender":"Male","age":92,"pet":"Blue peacock","favourite_color":"#8791ff"}
+{"_id":56,"name":"Zacharia Bothams","gender":"Male","age":65,"pet":"Small-toothed palm civet","favourite_color":"#ea0cec"}
+{"_id":57,"name":"Lodovico Plett","gender":"Male","age":91,"pet":"Pelican, brown","favourite_color":"#bccd3c"}
+{"_id":58,"name":"Raphael Renvoys","gender":"Male","age":77,"pet":"Whale, baleen","favourite_color":"#7cdb2a"}
+{"_id":59,"name":"Rocky Paule","gender":"Male","age":65,"pet":"Swan, trumpeter","favourite_color":"#6302ff"}
+{"_id":60,"name":"Marj Hurtic","gender":"Female","age":62,"pet":"Tarantula, salmon pink bird eater","favourite_color":"#421f18"}
+{"_id":61,"name":"Tyne Nanelli","gender":"Female","age":90,"pet":"Fox, silver-backed","favourite_color":"#84158b"}
+{"_id":62,"name":"Matti Coltan","gender":"Female","age":57,"pet":"Blue-tongued skink","favourite_color":"#71221c"}
+{"_id":63,"name":"Andras Donkersley","gender":"Male","age":22,"pet":"Silver gull","favourite_color":"#58d5e4"}
+{"_id":64,"name":"Brien Toyer","gender":"Male","age":58,"pet":"Euro wallaby","favourite_color":"#018833"}
+{"_id":65,"name":"Lillis O'Nolan","gender":"Female","age":87,"pet":"Spur-winged goose","favourite_color":"#318c03"}
+{"_id":66,"name":"Hana Volk","gender":"Female","age":75,"pet":"Kingfisher, malachite","favourite_color":"#64a844"}
+{"_id":67,"name":"Aubree Gabbitus","gender":"Female","age":22,"pet":"Caracal","favourite_color":"#1759d7"}
+{"_id":68,"name":"Elisha Besantie","gender":"Female","age":91,"pet":"Elk, Wapiti","favourite_color":"#c4fd69"}
+{"_id":69,"name":"Bram Bonar","gender":"Male","age":96,"pet":"Pallas's fish eagle","favourite_color":"#c94f76"}
+{"_id":70,"name":"Barde Jacox","gender":"Male","age":21,"pet":"Snowy egret","favourite_color":"#b21127"}
+{"_id":71,"name":"Lothario Jacobovitch","gender":"Male","age":47,"pet":"Asian lion","favourite_color":"#3a9057"}
+{"_id":72,"name":"Lonnie Croasdale","gender":"Female","age":30,"pet":"Nighthawk, common","favourite_color":"#3a768a"}
+{"_id":73,"name":"Maddy Agutter","gender":"Female","age":93,"pet":"Eurasian red squirrel","favourite_color":"#548b5d"}
+{"_id":74,"name":"Odey Selbach","gender":"Male","age":36,"pet":"Red phalarope","favourite_color":"#83202f"}
+{"_id":75,"name":"Silvanus McKue","gender":"Male","age":39,"pet":"Russian dragonfly","favourite_color":"#03c480"}
+{"_id":76,"name":"Shena Bedingfield","gender":"Female","age":41,"pet":"Meerkat, red","favourite_color":"#403ed1"}
+{"_id":77,"name":"Allx Ruddell","gender":"Female","age":9,"pet":"Wildebeest, blue","favourite_color":"#e411eb"}
+{"_id":78,"name":"Algernon Flacknell","gender":"Male","age":86,"pet":"Rhinoceros, black","favourite_color":"#14d5dc"}
+{"_id":79,"name":"Ber Cranstoun","gender":"Male","age":48,"pet":"Hornbill, yellow-billed","favourite_color":"#829050"}
+{"_id":80,"name":"Rafi Baumert","gender":"Male","age":76,"pet":"Shrike, southern white-crowned","favourite_color":"#a35813"}
+{"_id":81,"name":"Pru Cullon","gender":"Female","age":22,"pet":"Camel, dromedary","favourite_color":"#e7d13d"}
+{"_id":82,"name":"Chickie Jindrich","gender":"Male","age":61,"pet":"Sea birds (unidentified)","favourite_color":"#188aa6"}
+{"_id":83,"name":"Farley Fike","gender":"Male","age":28,"pet":"Red sheep","favourite_color":"#771fc5"}
+{"_id":84,"name":"Andy Todari","gender":"Female","age":84,"pet":"Lechwe, kafue flats","favourite_color":"#a2e540"}
+{"_id":85,"name":"Elna Pammenter","gender":"Female","age":56,"pet":"Macaque, pig-tailed","favourite_color":"#32b07d"}
+{"_id":86,"name":"Hobart Constance","gender":"Male","age":74,"pet":"Eagle, long-crested hawk","favourite_color":"#85d5a9"}
+{"_id":87,"name":"Hollie Maine","gender":"Female","age":63,"pet":"Dove, emerald-spotted wood","favourite_color":"#0ba304"}
+{"_id":88,"name":"Tuck Tudball","gender":"Male","age":69,"pet":"Tawny frogmouth","favourite_color":"#19a43c"}
+{"_id":89,"name":"Kaitlin Rivilis","gender":"Female","age":64,"pet":"American racer","favourite_color":"#0546a2"}
+{"_id":90,"name":"Robert Goalley","gender":"Male","age":88,"pet":"Ostrich","favourite_color":"#61eaaf"}
+{"_id":91,"name":"Ginnifer Giff","gender":"Female","age":39,"pet":"Sun gazer","favourite_color":"#60a3fb"}
+{"_id":92,"name":"Evangeline Kenright","gender":"Female","age":49,"pet":"Common zorro","favourite_color":"#9fb06a"}
+{"_id":93,"name":"Di Scopes","gender":"Female","age":19,"pet":"Cat, tiger","favourite_color":"#acf1c4"}
+{"_id":94,"name":"Whitman Fitchett","gender":"Male","age":55,"pet":"Sifaka, verreaux's","favourite_color":"#2538e6"}
+{"_id":95,"name":"Carina Marwick","gender":"Female","age":11,"pet":"Snowy sheathbill","favourite_color":"#c34982"}
+{"_id":96,"name":"Drugi Stormont","gender":"Male","age":88,"pet":"Dove, galapagos","favourite_color":"#70d5a9"}
+{"_id":97,"name":"Garrot Dooher","gender":"Male","age":91,"pet":"Common ringtail","favourite_color":"#b18f77"}
+{"_id":98,"name":"Aubree Norcott","gender":"Female","age":35,"pet":"Snake, racer","favourite_color":"#8e9a82"}
+{"_id":99,"name":"Hill Baradel","gender":"Male","age":68,"pet":"Iguana, marine","favourite_color":"#344c77"}
+{"_id":100,"name":"Fidela Dood","gender":"Female","age":73,"pet":"Lion, california sea","favourite_color":"#96ed02"}

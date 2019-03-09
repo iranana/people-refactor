@@ -11,12 +11,17 @@ var handlebars = require('handlebars');
 app.use('/dist', express.static('dist'));
 
 app.get(['/api/people'], (req, res) => {
-  let { gender, maxAge, minAge } = req.query;
+  let { gender, maxAge, minAge, pet } = req.query;
   let query = {};
  
   if (gender) {
     query.gender = gender;
-  } 
+  }
+
+  if (pet) {
+    let regex = new RegExp(pet, flags = "i");
+    query.pet = { $regex: regex };
+  }
   
   if (maxAge || minAge) { 
     query.age = {};

@@ -37,9 +37,15 @@ class PeopleList extends React.Component<RouteComponentProps> {
           return <p>Error!</p>
         case "fulfilled":
           return (
-            <ul>
-              {this.people.value.map(person => <PersonCard key={person._id} person={person} />)}
-            </ul>
+            this.people.value.length ?
+              <>
+                <h1 className="title is-4">{this.people.value.length} people found</h1>
+                <ul className="columns is-multiline is-fluid">
+                  {this.people.value.map(person => <PersonCard key={person._id} person={person} />)}
+                </ul>
+              </>
+            :
+              <p>No people found!</p>
           )
       }
     } else {

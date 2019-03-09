@@ -14,9 +14,11 @@ const App = () => (
       <Route path="/" render={() => (
         <Navigation />
       )} />
+      <main className="container">
       <Route exact path="/" render={() => <Redirect to="/people" />} />
       <Route exact path="/people" component={People} />
       <Route exact path="/about" component={About} />
+      </main>
     </>
   </Router>
 )

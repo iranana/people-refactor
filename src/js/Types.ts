@@ -3,6 +3,6 @@ export type Person = {
   name: string;
   age: number;
   gender: string;
-  favourite_animal: string;
+  pet: string;
   favourite_color: string;
 }

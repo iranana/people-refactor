@@ -9,7 +9,7 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
 
   search = (e) => {
     e.preventDefault();
-    const { gender, minAge, maxAge } = this.form.current.elements as any;
+    const { gender, minAge, maxAge, pet } = this.form.current.elements as any;
     const query = [];
 
     if (gender.value) {
@@ -21,6 +21,9 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
     if (maxAge.value) {
       query.push(`maxAge=${maxAge.value}`);
     }
+    if (pet.value) {
+      query.push(`pet=${pet.value}`)
+    }
 
     // Query changes are received up by PeopleList in componentDidUpdate()
     this.props.history.push(`?${query.join('&')}`);
@@ -29,15 +32,18 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
   render () {
     return (
       <form ref={this.form} onSubmit={this.search}>
-        <select id="gender" onChange={this.search}>
-          <option value="">Any gender</option>
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-        </select>
-        <input id="minAge" type="number" placeholder="Min age" />
-        <input id="maxAge" type="number" placeholder="Max age" />
+        <div className="select">
+          <select id="gender" onChange={this.search}>
+            <option value="">Any gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+        <input className="input" id="minAge" type="number" placeholder="Min age" />
+        <input className="input" id="maxAge" type="number" placeholder="Max age" />
+        <input className="input" id="pet" type="text" placeholder="Pet" />
 
-        <button>Filter</button>
+        <button className="button is-link">Filter</button>
       </form>
     )
   }
