@@ -1,5 +1,7 @@
 import React from "react";
 import { RouteComponentProps } from "react-router";
+import cleanDeep from "clean-deep";
+import queryString from "query-string";
 
 /**
  * Renders a form with filter controls.
@@ -10,23 +12,16 @@ class PeopleFilter extends React.Component<RouteComponentProps> {
   search = (e) => {
     e.preventDefault();
     const { gender, minAge, maxAge, pet } = this.form.current.elements as any;
-    const query = [];
 
-    if (gender.value) {
-      query.push(`gender=${gender.value}`);
-    }
-    if (minAge.value) {
-      query.push(`minAge=${minAge.value}`);
-    }
-    if (maxAge.value) {
-      query.push(`maxAge=${maxAge.value}`);
-    }
-    if (pet.value) {
-      query.push(`pet=${pet.value}`)
+    const query = {
+      gender: gender.value || null,
+      minAge: minAge.value ? parseInt(minAge.value) : null,
+      maxAge: maxAge.value ? parseInt(maxAge.value) : null,
+      pet: pet.value || null
     }
 
     // Query changes are received up by PeopleList in componentDidUpdate()
-    this.props.history.push(`?${query.join('&')}`);
+    this.props.history.push(`?${queryString.stringify(cleanDeep(query))}`);
   }
 
   render () {

@@ -7,35 +7,27 @@ var Datastore = require('nedb'),
   });
 var fs = require('fs');
 var handlebars = require('handlebars');
+var cleanDeep = require('clean-deep');
 
 app.use('/dist', express.static('dist'));
 
 app.get(['/api/people'], (req, res) => {
-  let { gender, maxAge, minAge, pet } = req.query;
-  let query = {};
- 
-  if (gender) {
-    query.gender = gender;
-  }
+  const { gender, maxAge, minAge, pet } = req.query;
 
-  if (pet) {
-    let regex = new RegExp(pet, flags = "i");
-    query.pet = { $regex: regex };
-  }
-  
-  if (maxAge || minAge) { 
-    query.age = {};
-
-    if (maxAge) {
-      query.age.$lt = parseInt(maxAge)
-    }
-    
-    if (minAge) {
-      query.age.$gte = parseInt(minAge)
+  const query = {
+    gender: gender,
+    age: {
+      $gte: minAge ? parseInt(minAge) : null,
+      $lt: maxAge ? parseInt(maxAge) : null
+    },
+    pet: {
+      $regex: pet ? new RegExp(pet, "i") : null
     }
   }
 
-  db.find(query, {}, (error, documents) => {
+  const cleanQuery = cleanDeep(query);
+
+  db.find(cleanQuery, {}, (error, documents) => {
     if (error) {
       return res.status(500).send({ status: 500, message: "Failed to read database" });
     }
