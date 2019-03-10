@@ -8,8 +8,14 @@ const db = new Datastore({
   autoload: true
 });
 
+/**
+ * Serve static
+ */
 app.use("/dist", express.static("dist"));
 
+/**
+ * One API to rule them all...
+ */
 app.get(["/api/people"], (req, res) => {
   const { gender, maxAge, minAge, pet } = req.query;
 
@@ -24,6 +30,7 @@ app.get(["/api/people"], (req, res) => {
     }
   }
 
+  // Strip falsey values from query
   const cleanQuery = cleanDeep(query);
 
   db.find(cleanQuery, {}, (error, documents) => {
@@ -35,7 +42,10 @@ app.get(["/api/people"], (req, res) => {
   });
 });
 
-app.get("/", function (req, res) {
+/**
+ * Serve index.html
+ */
+app.get("/", (req, res) => {
   fs.readFile("./dist/index.html", "utf8", (error, data) => {
     if (error) {
       return res.status(500).send({ status: 500, message: "Couldn't find template." })
@@ -45,6 +55,6 @@ app.get("/", function (req, res) {
   });
 });
 
-app.listen(3000, function () {
+app.listen(3000, () => {
   console.log("-- Listening on port 3000 --")
 });

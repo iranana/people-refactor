@@ -1,6 +1,9 @@
 import React from "React";
 import { Person } from "../Types";
 
+/**
+ * Renders the card for a given person.
+ */
 export const PersonCard = ({ person } : { person: Person }) => (
   <li className="column is-3">
     <div className="card">

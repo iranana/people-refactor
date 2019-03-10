@@ -1,3 +1,18 @@
+Refactored to use React and MobX. Builds with Parcel (zero config :) 
+
+If you don't have Parcel:
+
+```
+npm install -g parcel
+```
+
+To run:
+
+```
+npm install
+npm start
+```
+
 # refactionjs
 
 Refactoring and showcase exercise for JavaScript.

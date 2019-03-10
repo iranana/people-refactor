@@ -12,9 +12,9 @@ export const PeopleList = observer(({ people } : { people: IPromiseBasedObservab
     if (people) {
       switch (people.state) {
         case "pending":
-          return <p>Loading people</p>
+          return <p><span className="loader is-inline-block"></span> Loading people</p>
         case "rejected":
-          return <p>Error!</p>
+          return <div className="notification is-danger">Error {people.value.status} - {people.value.message}</div>
         case "fulfilled":
           return (
             people.value.length ?
@@ -24,7 +24,7 @@ export const PeopleList = observer(({ people } : { people: IPromiseBasedObservab
                   {people.value.map(person => <PersonCard key={person._id} person={person} />)}
                 </ul>
               </>
-            :
+              :
               <p>No people found!</p>
           )
       }

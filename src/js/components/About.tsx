@@ -4,14 +4,14 @@ export const About = () => (
   <div className="content"> 
     <h1 className="title is-4">About</h1>
     <p>
-      This was built primarily using React, React Router and MobX. Routing is used to capture query params and preserve history. 
-      MobX was used to manage component state, mostly because I find it to be quite succinct when making API requests using fromPromise().
-      I chose not to use Redux because setting up the actions, reducer and store for this seemed too much. For the same reasons, I didn't use 
-      MobX to set up a store.
+      This is built primarily using React, React Router and MobX. Routing is used to preserve history, derive initial filter state, 
+      and fetch data when the route changes. MobX is used to manage container state, mostly because I find it to be quite succinct 
+      for handling API requests with fromPromise() and observable().
     </p>
     <p>
-      Personally I'm not sure a state management library is wholly necessary here - React's own local state mechanisms would have be sufficient for 
-      this implementation. Tracking the state of the request would require a bit more boilerplate, but that's about it.
+      I'm not sure a state management library is wholly necessary here - React's own local state mechanisms would have be sufficient for 
+      this implementation (albeit more boilerplatey). However, moving the state and actions (in People.tsx) to a global store would be 
+      necessary if the app was to grow, in which case a library is required.
     </p>
   </div>
 )

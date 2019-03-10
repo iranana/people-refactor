@@ -6,3 +6,10 @@ export type Person = {
   pet: string;
   favourite_color: string;
 }
+
+export type Filter = {
+  gender: string;
+  minAge: string;
+  maxAge: string;
+  pet: string;
+}
